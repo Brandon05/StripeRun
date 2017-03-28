@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025926C11E8AD30E00B07F11 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025926C01E8AD30E00B07F11 /* MaterialCard.swift */; };
+		02ADA3131E8AB499009086C0 /* CustomAddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADA3121E8AB499009086C0 /* CustomAddCardViewController.swift */; };
+		02ADA31E1E8AB7FC009086C0 /* CollectionViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADA31C1E8AB7FC009086C0 /* CollectionViewProtocols.swift */; };
+		02ADA31F1E8AB7FC009086C0 /* CollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADA31D1E8AB7FC009086C0 /* CollectionViewExtensions.swift */; };
+		02ADA3221E8ACA7F009086C0 /* AddCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADA3201E8ACA7F009086C0 /* AddCardCell.swift */; };
+		02ADA3231E8ACA7F009086C0 /* AddCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02ADA3211E8ACA7F009086C0 /* AddCardCell.xib */; };
+		02ADA3261E8ACA95009086C0 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADA3241E8ACA95009086C0 /* CardCell.swift */; };
+		02ADA3271E8ACA95009086C0 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02ADA3251E8ACA95009086C0 /* CardCell.xib */; };
 		02D2E3A41E842FBB007BA79F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2E3A31E842FBB007BA79F /* AppDelegate.swift */; };
 		02D2E3A91E842FBB007BA79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D2E3A71E842FBB007BA79F /* Main.storyboard */; };
 		02D2E3AB1E842FBC007BA79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D2E3AA1E842FBC007BA79F /* Assets.xcassets */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		025926C01E8AD30E00B07F11 /* MaterialCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialCard.swift; sourceTree = "<group>"; };
+		02ADA3121E8AB499009086C0 /* CustomAddCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAddCardViewController.swift; sourceTree = "<group>"; };
+		02ADA31C1E8AB7FC009086C0 /* CollectionViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewProtocols.swift; path = ../../../iTweet/iTweet/CollectionViewProtocols.swift; sourceTree = "<group>"; };
+		02ADA31D1E8AB7FC009086C0 /* CollectionViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewExtensions.swift; path = ../../../iTweet/iTweet/CollectionViewExtensions.swift; sourceTree = "<group>"; };
+		02ADA3201E8ACA7F009086C0 /* AddCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardCell.swift; sourceTree = "<group>"; };
+		02ADA3211E8ACA7F009086C0 /* AddCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCardCell.xib; sourceTree = "<group>"; };
+		02ADA3241E8ACA95009086C0 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		02ADA3251E8ACA95009086C0 /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
 		02D2E3A01E842FBB007BA79F /* StripeRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripeRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D2E3A31E842FBB007BA79F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02D2E3A81E842FBB007BA79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +83,14 @@
 				02D2E3AC1E842FBC007BA79F /* LaunchScreen.storyboard */,
 				02D2E3AF1E842FBC007BA79F /* Info.plist */,
 				02D905CF1E8448AB00FC42F5 /* AddCardViewController.swift */,
+				02ADA3121E8AB499009086C0 /* CustomAddCardViewController.swift */,
+				02ADA31C1E8AB7FC009086C0 /* CollectionViewProtocols.swift */,
+				02ADA31D1E8AB7FC009086C0 /* CollectionViewExtensions.swift */,
+				02ADA3201E8ACA7F009086C0 /* AddCardCell.swift */,
+				02ADA3211E8ACA7F009086C0 /* AddCardCell.xib */,
+				02ADA3241E8ACA95009086C0 /* CardCell.swift */,
+				02ADA3251E8ACA95009086C0 /* CardCell.xib */,
+				025926C01E8AD30E00B07F11 /* MaterialCard.swift */,
 			);
 			path = StripeRun;
 			sourceTree = "<group>";
@@ -123,7 +147,7 @@
 				TargetAttributes = {
 					02D2E39F1E842FBB007BA79F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ELJV42N84Z;
+						DevelopmentTeam = 47BB9N28PZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,7 +177,9 @@
 			files = (
 				02D2E3AE1E842FBC007BA79F /* LaunchScreen.storyboard in Resources */,
 				02D2E3AB1E842FBC007BA79F /* Assets.xcassets in Resources */,
+				02ADA3271E8ACA95009086C0 /* CardCell.xib in Resources */,
 				02D2E3A91E842FBB007BA79F /* Main.storyboard in Resources */,
+				02ADA3231E8ACA7F009086C0 /* AddCardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +238,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02ADA3261E8ACA95009086C0 /* CardCell.swift in Sources */,
+				02ADA3131E8AB499009086C0 /* CustomAddCardViewController.swift in Sources */,
+				02ADA3221E8ACA7F009086C0 /* AddCardCell.swift in Sources */,
+				02ADA31E1E8AB7FC009086C0 /* CollectionViewProtocols.swift in Sources */,
 				02D905D01E8448AB00FC42F5 /* AddCardViewController.swift in Sources */,
+				02ADA31F1E8AB7FC009086C0 /* CollectionViewExtensions.swift in Sources */,
+				025926C11E8AD30E00B07F11 /* MaterialCard.swift in Sources */,
 				02D2E3A41E842FBB007BA79F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,10 +369,10 @@
 			baseConfigurationReference = EFFDB59AFDD4214B7E0CEB80 /* Pods-StripeRun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ELJV42N84Z;
+				DEVELOPMENT_TEAM = 47BB9N28PZ;
 				INFOPLIST_FILE = StripeRun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = brandon.StripeRun;
+				PRODUCT_BUNDLE_IDENTIFIER = brandon.StripeRunV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
@@ -352,10 +384,10 @@
 			baseConfigurationReference = 2E6FAD2159BD7ED2F09B99E9 /* Pods-StripeRun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ELJV42N84Z;
+				DEVELOPMENT_TEAM = 47BB9N28PZ;
 				INFOPLIST_FILE = StripeRun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = brandon.StripeRun;
+				PRODUCT_BUNDLE_IDENTIFIER = brandon.StripeRunV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;

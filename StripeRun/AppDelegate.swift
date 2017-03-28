@@ -21,7 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //Stripe.setDefaultPublishableKey("pk_test_kUQMR0PfeCy0UDj0iQa3wOlu")
         STPPaymentConfiguration.shared().publishableKey = "pk_test_kUQMR0PfeCy0UDj0iQa3wOlu"
         STPPaymentConfiguration.shared().smsAutofillDisabled = true
+        STPTheme.default().accentColor = UIColor.green//UIColor(red: 46, green: 204, blue: 113, alpha: 1.0)
+        STPTheme.default().primaryBackgroundColor = UIColor.white
+        STPTheme.default().barStyle = .blackTranslucent
+        STPTheme.default().primaryForegroundColor = UIColor(red: 46, green: 204, blue: 113, alpha: 1.0)
         
+        //STPTheme.default().tertiaryBackgroundColor = UIColor.red
+        STPTheme.default().primaryForegroundColor = UIColor.black
         
         return true
     }

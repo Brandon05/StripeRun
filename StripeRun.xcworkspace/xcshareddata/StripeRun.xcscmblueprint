@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "408B4918DA0E15B636621B833283E97435747528",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "408B4918DA0E15B636621B833283E97435747528" : 9223372036854775807,
+    "C98F0FC9735007E42CF37EA49660D4ABCC7585D2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7FF672CC-7570-46BB-B122-B292607CF815",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "408B4918DA0E15B636621B833283E97435747528" : "StripeRun\/",
+    "C98F0FC9735007E42CF37EA49660D4ABCC7585D2" : "..\/iTweet"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StripeRun",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "StripeRun.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Brandon05\/StripeRun.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "408B4918DA0E15B636621B833283E97435747528"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Brandon05\/iTweet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C98F0FC9735007E42CF37EA49660D4ABCC7585D2"
+    }
+  ]
+}

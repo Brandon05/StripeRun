@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,7 +27,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
+            <point key="canvasLocation" x="1705" y="139"/>
+        </scene>
+        <!--Custom Add Card View Controller-->
+        <scene sceneID="WF4-7M-nx2">
+            <objects>
+                <viewController id="Vsp-cP-W5X" customClass="CustomAddCardViewController" customModule="StripeRun" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V11-02-I9M"/>
+                        <viewControllerLayoutGuide type="bottom" id="HVd-Mh-REF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ybu-Kf-RMP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment Methods" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eh8-ri-Xwf">
+                                <rect key="frame" x="16" y="100" width="139" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wSL-L2-FG5">
+                                <rect key="frame" x="0.0" y="129" width="375" height="538"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="2" id="p9E-Ux-MPP">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="2" minY="2" maxX="2" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23346421632124348" green="0.23346421632124348" blue="0.23346421632124348" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wSL-L2-FG5" firstAttribute="top" secondItem="eh8-ri-Xwf" secondAttribute="bottom" constant="8" id="6bW-w8-M2x"/>
+                            <constraint firstItem="eh8-ri-Xwf" firstAttribute="leading" secondItem="Ybu-Kf-RMP" secondAttribute="leadingMargin" id="NBV-sb-gd3"/>
+                            <constraint firstItem="eh8-ri-Xwf" firstAttribute="top" secondItem="V11-02-I9M" secondAttribute="bottom" constant="36" id="TT3-nA-sbe"/>
+                            <constraint firstItem="HVd-Mh-REF" firstAttribute="top" secondItem="wSL-L2-FG5" secondAttribute="bottom" id="pOX-pJ-v0c"/>
+                            <constraint firstItem="wSL-L2-FG5" firstAttribute="leading" secondItem="Ybu-Kf-RMP" secondAttribute="leading" id="pdz-wY-CDc"/>
+                            <constraint firstAttribute="trailing" secondItem="wSL-L2-FG5" secondAttribute="trailing" id="r59-CK-rqv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ufH-jk-QIk"/>
+                    <connections>
+                        <outlet property="cardCollectionView" destination="wSL-L2-FG5" id="Lif-ME-GtT"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="AddCardSegue" id="LbG-Mo-GEM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6BK-E1-gu7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960.79999999999995" y="138.98050974512745"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="l3c-uG-B3e">
@@ -39,7 +90,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="LUU-ER-BrG"/>
+                        <segue destination="Vsp-cP-W5X" kind="relationship" relationship="rootViewController" id="iBV-6D-Nvw"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E8s-W5-ryZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
